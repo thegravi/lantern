@@ -1,9 +1,9 @@
 #include "lantern.h"
 
 struct lantern lantern_t = { {lanternPowerOff, lanternPowerOn},
-							 getPowerStatus,
-							 {setPowerOff, setPowerOn},
-							 0};
+		  	     getPowerStatus,
+			     {setPowerOff, setPowerOn},
+			     0};
 
 void lanternPowerOn(void) {
 	uint8_t step;
